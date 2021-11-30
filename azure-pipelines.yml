@@ -19,7 +19,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+- vmImage: ubuntu-latest
 strategy:
   matrix:
     Python36:
