@@ -1,6 +1,13 @@
 # Python package
 - task: AzureWebApp@1
   inputs:
+    azureSubscription: 'HIVE_WoundImaging'
+    appType: 'webApp'
+    appName: 'AZWoundImagingBEAS00'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    deploymentMethod: 'auto'
+- task: AzureWebApp@1
+  inputs:
     appType: 'webApp'
     appName: 'webapptest'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
