@@ -14,7 +14,7 @@ variables:
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
 
-  azureServiceConnectionId: Hive_WoundImaging
+  azureServiceConnectionId: MyTest
   webAppName: Python_Test_DS
 
   # Python version: 3.7
